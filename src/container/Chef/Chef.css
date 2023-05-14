@@ -1,0 +1,59 @@
+.app__wrapper_img img {
+    width: 70%;
+}
+
+.app__wrapper_info h1 {
+    font-size: 50px;
+}
+
+.app_-chef-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.app__chef-content_qoute {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.app__chef-content_qoute img {
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+
+.app__chef-sign {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.app__chef-sign p:first-child {
+    font-family: var(--font-base);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+}
+
+.app__chef-sign img {
+    width: 200px;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__wrapper_img img {
+        max-width: 500px;
+        height: 400px;
+        margin-inline: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .app__wrapper_img img {
+        max-width: 90%;
+    }
+}
